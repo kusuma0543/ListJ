@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 holder.textid=(TextView)  convertView.findViewById(R.id.textView);
                 holder.textname=(TextView)  convertView.findViewById(R.id.textView1);
                 convertView.setTag(holder);
-            }
+            }//ino
             else {
                 holder = (ViewHolder) convertView.getTag();
             }
